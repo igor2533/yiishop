@@ -26,7 +26,7 @@ $this->title = 'My Yii Application';
 
 
                 <div class="slider_article">
-                  <h2><a class="slider_tittle" href="<?= Url::toRoute(['site/view', 'id'=>$user->id]);?>"><?=$user->name?></a></h2>
+                  <h2><a class="slider_tittle" href="<?= $user->id;?>"><?=$user->name;?></a></h2>
 
                 </div>
               </div>
